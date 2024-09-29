@@ -1,12 +1,3 @@
-mkdir proyecto-hola-mundo
-cd proyecto-hola-mundo
-
-git init
-
-echo "# Proyecto Hola Mundo" >> README.md
-git add README.md
-git commit -m "Primer commit en la rama main"
-
 git checkout -b dev
 
 echo "node_modules/" >> .gitignore
